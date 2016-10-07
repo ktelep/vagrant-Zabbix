@@ -1,8 +1,7 @@
 vagrant-Zabbix
 ==============
 
-This VagrantFile provides a Zabbix 2.4 server installed on CentOS 6.7.   After vagrant up, connect to the VM on 192.168.33.10:80 in a web browser and complete the setup.
+This VagrantFile provides a Zabbix 3.2 server installed on Ubuntu Trusty.   After vagrant up, connect to the VM on localhost:8080 and complete the Installation.  Note you will want to set the mysql User to root and Password to zabbix to complete the install.
 
-MySQL root password: topsecret
+MySQL root password: zabbix
 
-Install is based on the steps found here: http://bicofino.io/blog/2015/10/09/install-zabbix-2-dot-4-6-from-source-on-centos/
